@@ -4,8 +4,11 @@ The Ministry of Rural Development has made its database of roads, habilitations 
 ## Need
 Since there are [various issues](https://github.com/datameet/pmgsy-geosadak/issues/14) which prevent directly importing PMGSY data into OSM, road data from PMGSY can only be mapped manually or semi-automatically. This workflow explains one method utilising PMGSY database as a background layer along with the [MapwithAI](Mapwith.ai/) plugin on JOSM
 
+## Contact
+For any queries or issues, either start an issue or write to aman.malik@outlook.com
+
 # Pre-requesits
-Editing OSM using JOSM. For a beginner's guide, see [here](https://learnosm.org/en/josm/)
+Knowledge of editing OSM using JOSM. For a beginner's guide, see [here](https://learnosm.org/en/josm/)
 
 # Workflow
 ## I. Adding PMGSY as background layer
@@ -40,8 +43,11 @@ Editing OSM using JOSM. For a beginner's guide, see [here](https://learnosm.org/
 
 7. Although the PMGSY has lots of previously unmapped roads, the database is not comprehensive, resulting in roads that the AI algorithm finds but are not in the PMGSY database. At the same time, the AI algorithm can often mistake trails, riverbeds, or electricity lines for roads. If you think that the road found by MapwithAI is indeed a road, feel free to mark it. From point iii), we see that the AI algorithm sometimes also fails to find roads. This can be due to many reasons but often is because of tree or vegetation cover. If the road is visible on PMGSY, you can map it by hand.
 
-7. To upload the data found using mapwithai on OSM, you first need to transfer the data into the `Data` layer. To do this click on a pink line and press `Shift + A`. Activating the `Data` layer shows that the line is now visible there.
-7. 
+7. To upload the data found using mapwithai on OSM, you first need to transfer the data into the `Data` layer. To do this click on the pink line and press `Shift + A`. Activating the `Data` layer shows that the line is now visible there.
+![image](https://user-images.githubusercontent.com/43343789/165795600-6b28da5c-6b28-49d2-8fb2-22a496c52b5c.png)
+
+8. The AI algorithm already fills in the `highway=*` and `source=*` tags for a marked line. You can correct them before uploading.
+
 
 
 
