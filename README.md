@@ -7,7 +7,7 @@ Since there are [various issues](https://github.com/datameet/pmgsy-geosadak/issu
 ## Contact
 For any queries or issues, either start an issue or write to aman.malik@outlook.com
 
-# Pre-requesits
+# Prerequisite
 Knowledge of editing OSM using JOSM. For a beginner's guide, see [here](https://learnosm.org/en/josm/)
 
 # Workflow
@@ -18,9 +18,9 @@ Knowledge of editing OSM using JOSM. For a beginner's guide, see [here](https://
 4. Give layer name as PMGSY. Click okay.
 5. The imagery now appears as `PMGSY` when you click on `Imagery`
 6. The imagery looks like this. A thin black line indicates all roads from the PMGSY database. A grey line indicates data from OSM. A red line indicates data not in OSM.  
-
 ![image](https://user-images.githubusercontent.com/43343789/165785056-0920cc67-85b6-4e51-8a63-e593643c06b3.png). 
-8. For a complete map with all PMGSY data, click [here](https://projects.datameet.org/pmgsy-geosadak/map.html#12.15/31.94553/77.14099/-28.8)
+
+7. For a complete map with all PMGSY data, click [here](https://projects.datameet.org/pmgsy-geosadak/map.html#12.15/31.94553/77.14099/-28.8)
 
 
 ## II. Installing MapwithAI plugin on JOSM
@@ -43,10 +43,10 @@ Knowledge of editing OSM using JOSM. For a beginner's guide, see [here](https://
 
 7. Although the PMGSY has lots of previously unmapped roads, the database is not comprehensive, resulting in roads that the AI algorithm finds but are not in the PMGSY database. At the same time, the AI algorithm can often mistake trails, riverbeds, or electricity lines for roads. If you think that the road found by MapwithAI is indeed a road, feel free to mark it. From point iii), we see that the AI algorithm sometimes also fails to find roads. This can be due to many reasons but often is because of tree or vegetation cover. If the road is visible on PMGSY, you can map it by hand.
 
-7. To upload the data found using mapwithai on OSM, you first need to transfer the data into the `Data` layer. To do this click on the pink line and press `Shift + A`. Activating the `Data` layer shows that the line is now visible there.
+8. To upload the data found using mapwithai on OSM, you first need to transfer the data into the `Data` layer. To do this click on the pink line and press `Shift + A`. Activating the `Data` layer shows that the line is now visible there.
 ![image](https://user-images.githubusercontent.com/43343789/165795600-6b28da5c-6b28-49d2-8fb2-22a496c52b5c.png)
 
-8. The AI algorithm already fills in the `highway=*` and `source=*` tags for a marked line. You can correct them before uploading.
+9. The AI algorithm already fills in default values `highway=*` and `source=*` tags for a marked line. You can correct them if you want  before uploading.
 
 
 
